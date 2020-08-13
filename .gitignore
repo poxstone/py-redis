@@ -1,0 +1,28 @@
+*.sw[wmnop]
+node_modules/*
+*.pyc
+lib/*
+.DS_Store
+.idea/
+*.sw[mnop]
+.code
+__pycache__/*
+*~
+env_virtual/*
+/setup.cfg
+- ^(.*/)?#.*#
+- ^(.*/)?.*~
+- ^(.*/)?.*\.py[co]
+- ^(.*/)?.*\.pug
+- ^(.*/)?.*\.styl
+- ^(.*/)?.*\.sw[mnop]
+- ^(.*/)?.*/RCS/.*
+- ^(.*/)?\..*
+- ^(.*/)?\.bak
+
+node_modules/*
+package-lock.json
+k8_skeleton/k8_app_py/virtual_env/*
+venv/*
+**/venv/*
+01_js_cloudfunctions/node_modules/*
